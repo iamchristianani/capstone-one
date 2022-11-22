@@ -9,40 +9,53 @@
   <script src="https://kit.fontawesome.com/ad432cd04f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- <div id="menu-display" class="mobile-toggler menu-display">
+  <div class="menu-overlay menu-display" id="menu-overlay"></div>
+  <div id="menu-display" class="mobile-toggler menu-display">
     <div class="mobile-toggler-btn">
       <i class="fa-solid fa-xmark" id="menu-btn-2"></i>
     </div>
     <ul>
-      <li id="work-btn"><a href="#work-section">Portfolio</a></li>
-      <li id="about-btn"><a href="#about-section">About</a></li>
-      <li id="contact-btn"><a href="#contact-section">Contact</a></li>
+      <li id="home-btn" class="home-btn"><a href="index.html"><img class="mobile-logo" src="img/nubiacore-bg.png" alt="Nubiacore Logo"></a></li>
+      <li id="about-btn"><a href="about.html">About</a></li>
+      <li id="program-btn"><a href="#w">Program</a></li>
+      <li id="join-btn"><a href="#">Join</a></li>
+      <li id="sponsor-btn"><a href="#">Sponsor</a></li>
+      <li id="news-btn"><a href="#">News</a></li>
     </ul>
-  </div> -->
-  <header class="header">
-    <nav class="navigation">
-      <div class="menu-icon">
-        <ul class="mobile-menu">
-          <li class="menu-btn">
-            <i class="fa-solid fa-bars" id="hamburger-button"></i>
-          </li>
-        </ul>
-        <ul class="desktop-menu">
-          <li><a href="#work-section">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-section">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  </div>
+  <div class="lang-selector">
+    <ul class="lang-menu">
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#">English</a></li>
+      <li><a href="#">My Page</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+  <nav class="navigation">
+      <ul class="mobile-menu">
+        <li class="menu-btn">
+          <i class="fa-solid fa-bars" id="hamburger-button"></i>
+        </li>
+      </ul>
+      <div class="logo"><a href="index.html"><img src="img/nubiacore-bg.png" alt="Nubiacore logo"></a></div>
+      <ul class="desktop-menu">
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="#">Program</a></li>
+        <li class="nav-item"><a href="#">Join</a></li>
+        <li class="nav-item"><a href="#">Sponsor</a></li>
+        <li class="nav-item"><a href="#">News</a></li>
+        <li class="menu-campaign-button"><a href="#">NC Concert</a></li>
+      </ul>
+  </nav>
   <section class="hero">
-    <h2 class="topic-h2">"Hello! Sharing world"</h2>
-    <h1>CREATIVE COMMONS GLOBAL SUMMIT <br> 2015</h1>
+    <h2 class="topic-h2">"Hello! Music Lovers"</h2>
+    <h1>NUBIACORE ARTS & <br> MUSIC FESTIVAL <br> 2022</h1>
     <div class="small-text">
-      <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+      <p>A festival infused with the right blend of Art and Music is expected to hold at the entertainment capital of Africa, Lagos, Nigeria.</p>
     </div>
-    <h2 class="date-h2">2015.10.15(THU) ~ 16(FRI)</h2>
-    <h4>@ National Museum of Korea, Art Center Nabi and more</h4>
+    <h2 class="date-h2">2022.12.29(THU) ~ 31(SAT)</h2>
+    <h4>@ National Arts Theatre, Iganmu, Lagos.</h4>
   </section>
 
   <!-- PROGRAM SECTION -->
@@ -53,24 +66,35 @@
     </div>
     <div class="all-programs">
       <div class="each-program">
-        <i class="fa-solid fa-link"></i>
-        <h3>Lecture</h3>
-        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        <i class="fa-brands fa-artstation"></i>
+        <h3>Art</h3>
+        <p>Filled with colors and styles, and awesome designs. Our list of designers are poised to exhibit their works.</p>
       </div>
       <div class="each-program">
-        <i class="fa-solid fa-link"></i>
-        <h3>Lecture</h3>
-        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        <i class="fa-solid fa-music"></i>
+        <h3>Music</h3>
+        <p>Enjoy great music from top rated Afro beats artiste. Dance and vibe to the beautiful sounds.</p>
       </div>
       <div class="each-program">
-        <i class="fa-solid fa-link"></i>
-        <h3>Lecture</h3>
-        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        <i class="fa-solid fa-panorama"></i>
+        <h3>Drama</h3>
+        <p>Watch the drama presentation from the best actors and actresses in the industry, as they explain the history of Afrobeats.</p>
+      </div>
+      <div class="each-program">
+        <i class="fa-solid fa-handshake"></i>
+        <h3>Network</h3>
+        <p>Connect with lots of like minds and peers in this exclusive event, meet industry experts and associates.</p>
+      </div>
+      <div class="each-program">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Experience</h3>
+        <p>Have a funfilled experience. There is no better way to close the year than to celebrate your wins.</p>
       </div>
     </div>
     <div class="join-button">
-      <button>Join CC Global Summit 2015</button>
+      <button>Join Nubiacore Festival 2022</button>
     </div>
+    <p class="program-bottom-text">SEE THE WHOLE PROGRAM</p>
   </section>
 
   <!-- SPEAKERS SECTION -->
@@ -79,37 +103,9 @@
       <h2>Featured Speakers</h2>
       <div class="speakers-title-line"></div>
     </div>
-    <div class="all-speakers">
-      <div class="each-speaker">
-        <div class="speaker-img"></div>
-        <div class="speaker-details">
-          <h3>Yochai Benkler</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Havard Law School</h4>
-          <div class="speaker-details-line"></div>
-          <p>Berkley studies commons-based peer production, and published his seminal book "The Wealth of Networks" in 2006.</p>
-        </div>
-      </div>
-      <div class="each-speaker">
-        <div class="speaker-img"></div>
-        <div class="speaker-details">
-          <h3>Yochai Benkler</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Havard Law School</h4>
-          <div class="speaker-details-line"></div>
-          <p>Berkley studies commons-based peer production, and published his seminal book "The Wealth of Networks" in 2006.</p>
-        </div>
-      </div>
-      <div class="each-speaker">
-        <div class="speaker-img"></div>
-        <div class="speaker-details">
-          <h3>Yochai Benkler</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Havard Law School</h4>
-          <div class="speaker-details-line"></div>
-          <p>Berkley studies commons-based peer production, and published his seminal book "The Wealth of Networks" in 2006.</p>
-        </div>
-      </div>
-      <div class="more-speakers">
-        <button>MORE <i class="fa-solid fa-chevron-down"></i></button>
-      </div>
+    <div class="all-speakers" id="all-speakers"></div>
+    <div class="more-speakers">
+      <button>MORE <i class="fa-solid fa-chevron-down"></i></button>
     </div>
   </section>
 
@@ -141,10 +137,10 @@
   <!-- FOOTER SECTION -->
   <footer>
     <div class="footer-logo">
-      <img src="img/microverse-1.png" alt="Microverse Logo">
+      <img src="img/nubiacore-bg.png" alt="Microverse Logo">
     </div>
     <div class="footer-details">
-      <p>2015 Creative Commons Korea</p>
+      <p>2022 Nubiacore Conceptuals, Nigeria</p>
       <p>Some Rights Reserved</p>
     </div>
   </footer>
