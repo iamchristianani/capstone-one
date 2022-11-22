@@ -30,7 +30,7 @@ Download Repo:
 [Download Repo](https://github.com/iamchristianani/capstone-one/archive/refs/heads/main.zip)
 
 Portfolio Presentation:
-[Not Ready](https://github.com/iamchristianani/capstone-one)
+[Watch Video](https://www.loom.com/share/7c27fc9269ac431a91368b02888d1728)
 
 
 ## Author

@@ -369,15 +369,8 @@ footer {
 .about-hero h1 {
   font-size: 40px;
   font-weight: 800;
-  margin-top: 70px;
+  margin-top: 30px;
   color: #ec5242;
-
-  /* background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: repeat;
-	background-image: url('../img/text-background.jpg');
-	color: transparent; */
 }
 
 .about-small-text {
