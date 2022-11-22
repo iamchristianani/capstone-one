@@ -53,8 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspiration: Microverse
+- Inspiration: [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
